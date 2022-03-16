@@ -97,3 +97,52 @@ export const sliderItems = [
       price:"$30"
     }
   ];
+
+  export const popularItem =[
+    {
+      img:'https://www.transparentpng.com/thumb/book/YJK1qb-books-free-cut-out.png',
+      title:"Books",
+      listOne:"Astronomy Books",
+      listTwo:"Encyclopedia",
+      listThree:"Space history",
+      listFour:"Science fiction",
+      id:10
+    },
+    {
+      img:'https://www.transparentpng.com/thumb/digital-camera/lvQtcL-digital-camera-high-quality.png',
+      title:"Digital",
+      listOne:"Cameras",
+      listTwo:"Smart Appliances",
+      listThree:"Blenders",
+      listFour:"Lights",
+      id:11
+    },
+    {
+      img:'https://www.transparentpng.com/thumb/kids/EMkjl5-kids-brother-png-icon.png',
+      title:"Toys",
+      listOne:"Soft toys",
+      listTwo:"Miniature gifts",
+      listThree:"Puzzles",
+      listFour:"Action figures",
+      id:12
+    },
+  ]
+
+ export const ImgLayoutItems =[
+    {
+      class:"item item1",
+      name:"Action Cameras",
+      price:"From $190.00",
+    },
+    {
+      class:"item item2",
+      name:"Globes",
+      price:"From $90.00",
+    },
+    {
+      class:"item item3",
+      name:"Fairy Lights",
+      price:"From $10.00",
+    },
+    
+  ];
