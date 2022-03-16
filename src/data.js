@@ -1,3 +1,5 @@
+
+
 export const sliderItems = [
     {
       id: 1,
@@ -145,4 +147,28 @@ export const sliderItems = [
       price:"From $10.00",
     },
     
+  ]
+
+  export const review=[
+    {
+      date:"06 Dec 2021",
+      name:"Vashnavi",
+      icon:"5star",
+      message:"Now,if you are interested in space this is the correct place to explore",
+      id:20
+    },
+    {
+      date:"06 Dec 2021",
+      name:"Adrian Malana",
+      icon:"4star",
+      message:"Now,if you are interested in space this is the correct place to explore",
+      id:21
+    },
+    {
+      date:"06 Dec 2021",
+      name:"Alex joy",
+      icon:"3star",
+      message:"Now,if you are interested in space this is the correct place to explore",
+      id:22
+    }
   ];
