@@ -3,6 +3,7 @@ import Navbar from '../components/navbar/Navbar';
 import '../components/landingPage.css'
 import ContactNav from '../components/navbar/ContactNav';
 import MenuNav from '../components/navbar/MenuNav';
+import Slider from '../components/slider/Slider';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <ContactNav/>
       <Navbar/>
       <MenuNav/>
+      <Slider/>
     </div>
   
   )

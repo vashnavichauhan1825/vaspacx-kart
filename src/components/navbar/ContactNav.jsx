@@ -10,7 +10,7 @@ const ContactNav = () => {
     <div className="contact-nav-btn">
         <a href="/"><button className="icon-button bold-grey-text pointer"><i className="fa fa-github" aria-hidden="true"></i>Github</button></a>
         <a href="/"><button className="icon-button bold-grey-text pointer"><i className="fa fa-twitter" aria-hidden="true"></i>Twitter</button></a>
-        <img src="/" id="icon"/>
+        
     </div>
 </div>
   )
