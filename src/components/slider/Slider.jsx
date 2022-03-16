@@ -18,107 +18,13 @@
 // </section>
 // //   )
 // // }
-
-// // export default Slider;
-// import styled from "styled-components"
-
-// const Container=styled.div`
-// width:100%;
-// height:100vh;
-// display:flex;
-// justify-content:space-between;
-// `
-// const Arrow =styled.div`
-// display:flex;
-// align-items:center;
-// justify-content:center;
-// cursor:pointer;
-// opacity:0.6;
-// `;
-
-// const Slide = styled.div`
-// display:flex;
-// align-items:center;
-// width:100vw;
-// height:100vh;
-// `
-
-// const ImgContainer = styled.div`
-// flex:1;
-// height:100%;
-
-// `
-// const Image = styled.img`
-// height:80%;
-
-// `
-
-// const InfoContainer = styled.div`
-// flex:1;
-// padding:50px;
-// `
-// const Wrapper = styled.div`
-// `
-// const Title = styled.h1`
-
-// `
-// const Desc = styled.p``
-// const Button = styled.button``
-
-// const Slider = () => {
-//   return (
-//     <Container>
-//          <Arrow>
-//          <button className="float-btn add-float left-btn"><i className="fa fa-arrow-left" aria-hidden="true"></i></button>  
-//          </Arrow>
-//          <Wrapper>
-//            <Slide>
-//            <ImgContainer>
-//            <Image src="https://images.unsplash.com/photo-1607250267267-29ac1fdc4536?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
-//            </ImgContainer>
-//            <InfoContainer>
-//              <Title>POPULAR SALE !</Title>
-//              <Desc>GET FLAT 40% OFF FOR SPACE LOVERS !</Desc>
-//              <Button>SHOP NOW</Button>
-//            </InfoContainer>
-//            </Slide>
-//            <Slide>
-//            <ImgContainer>
-//            <Image src="https://images.unsplash.com/photo-1607250267267-29ac1fdc4536?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
-//            </ImgContainer>
-//            <InfoContainer>
-//              <Title>POPULAR SALE !</Title>
-//              <Desc>GET FLAT 40% OFF FOR SPACE LOVERS !</Desc>
-//              <Button>SHOP NOW</Button>
-//            </InfoContainer>
-//            </Slide>
-//            <Slide>
-//            <ImgContainer>
-//            <Image src="https://images.unsplash.com/photo-1607250267267-29ac1fdc4536?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
-//            </ImgContainer>
-//            <InfoContainer>
-//              <Title>POPULAR SALE !</Title>
-//              <Desc>GET FLAT 40% OFF FOR SPACE LOVERS !</Desc>
-//              <Button>SHOP NOW</Button>
-//            </InfoContainer>
-//            </Slide>
-//          </Wrapper>
-//          <Arrow>
-//          <button className="float-btn add-float right-btn"><i className="fa fa-arrow-right" aria-hidden="true"></i></button>  
-//          </Arrow>
-//     </Container>
-//   )
-// }
-
-// export default Slider
-
 import { useState } from "react";
 import styled from "styled-components";
 import { sliderItems } from "../../data";
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   overflow: hidden;
 `;
@@ -167,6 +73,7 @@ const Image = styled.img`
 const InfoContainer = styled.div`
   flex: 1;
   padding: 50px;
+  z-index:3;
 `;
 
 const Title = styled.h1`

@@ -20,3 +20,80 @@ export const sliderItems = [
      
     },
   ];
+
+  export const serviceItems =[
+    {
+      title:"24/7 Support",
+      icon:"fa fa-commenting bold-grey-text",
+      info:"In safe Hands"
+    },
+    {
+      title:"Free Shipping",
+      icon:"fa fa-truck bold-grey-text",
+      info:"Deliver To Door"
+    },
+    {
+      title:"Easy Payment",
+      icon:"fa fa-credit-card bold-grey-text",
+      info:"Shop with us"
+    },
+    {
+      title:"Big Discounts",
+      icon:"fa fa-percent bold-grey-text",
+      info:"On Big Stock"
+    }
+  ];
+
+  export const featureItem =[
+    {
+      title:"Gift",
+      product:"Telescope",
+      img:"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTmPgjWD-wk7fkTAFpsl9-l8xTfRZrprdUIG1DOsD5o0aNQ-T5LJEw5rN-UqIJMhsiZ17OgH6ycs7WVkuswUxvYLU788nvz2rvWblHerilc&usqp=CAc",
+      price:"$79"
+    },
+    {
+      title:"Glasses",
+      product:"Galaxy Mug",
+      img:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSkXUu-WONPERS9mMNlq0SyWAdZXuhXQjXlqkTBUxBja8WjuF8l83BCFa9l04GBi8LwitjVN8f1rJXIZWMql5IvUHTSoumZf0BUHfjC-nXE&usqp=CAc",
+      price:"$9"
+    },
+    {
+      title:"toys",
+      product:"Space crafts",
+      img:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS-NsNO_ZpGCnpkwnqu4164qw_KWNWV8hd82ZIpbjn1SCpcJjYPL7TxA8T8WE-MbN_y9o5Cqq73ssNWBK8BEeup78oqwkUgX_XqfeTQwxc&usqp=CAc",
+      price:"$5"
+    },
+    {
+      title:"Lights",
+      product:"Lamp humidifier",
+      img:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRLA_8c6vSVzfVCkPHQiYAoN0p5Ox9riqDLYk3GNnnehBNLPIh2MzAVb7cnc4pIKK6VKUZjDwE9fCONxV6ktpohRE4l2-ADjCKrJox5xbNWGfI6GW3IWCff1g&usqp=CAc",
+      price:"$10"
+    }
+  ];
+
+  export const SecfeatItem =[
+    {
+      title:"Clothes",
+      product:"T-shirt",
+      img:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQH32gIWNDTVK9Bd5xpRdNxf_7ZXOYoue_DxAyeeuX0r_dXU3xAAbbeVn2tV_0WgACrvY6S0bQgi5t8cr36O-PwuoccF0LCFjp6Yvw_bVAVC7X2-RRRlFT62w&usqp=CAE",
+      price:"$79"
+    },
+    {
+      title:"Accessories",
+      product:"Astronomy Bracelet",
+      img:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQrA_3rzWwK0KPNpVeHmaf2B768ocyTBHBJ3gBj1xq1XEMpfZWjgxhY7zOMNt6bakhXpKPVbCmoX0R2D8wHpO_YRUXuIgtiW_l-SLgCFFBe&usqp=CAE",
+      price:"$29"
+    },
+    {
+      title:"toys",
+      product:"Astronaut",
+      img:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRAuJe_UA5-WRMHgjppPs2f5yxEsm3HRsQlmGK_0UskVY0wWC_U0qxAX4p9ka3_3x93G1J5zT2SUE-0GCteZ6NxPgVTaMjZZZpyviwzIJI&usqp=CAE",
+      price:"$15"
+    },
+    {
+      title:"Glasses",
+      product:"Mug",
+      img:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSgc6kACBqKAubVE41bWqd-_FsAyBILECClL08riOwtfH3f6sECbslEtdRKdGGJXg-LqYcXrUtxh6lGWBRzHj48gABARStALkYMA7K_eoKaEL86nW431A00&usqp=CAE",
+      price:"$30"
+    }
+  ];
