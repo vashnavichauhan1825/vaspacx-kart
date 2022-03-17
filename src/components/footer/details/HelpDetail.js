@@ -12,4 +12,4 @@ const HelpDetail = () => {
   )
 }
 
-export default HelpDetail
+export default HelpDetail;
