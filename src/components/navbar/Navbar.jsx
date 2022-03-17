@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="search-cont">
                     <small className="bold-grey-text pointer">Help <i className="fa fa-angle-down" aria-hidden="true"></i></small>
                     <div className="cart-nav-cont">
-                        <a href="https://vaspacx-loginpage.netlify.app/signin.html"><i className="fa fa-shopping-basket pointer" aria-hidden="true"></i></a>
+                        <a href="#"><i className="fa fa-shopping-basket pointer" aria-hidden="true"></i></a>
                             <small>My Account</small>
                     </div>
                 </div>

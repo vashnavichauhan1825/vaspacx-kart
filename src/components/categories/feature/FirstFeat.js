@@ -1,4 +1,3 @@
-import React from 'react'
 import { featureItem } from '../../../data';
 
 const FirstFeat = () => {

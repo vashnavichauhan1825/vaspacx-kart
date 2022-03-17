@@ -15,27 +15,13 @@ const Reviews = () => {
             <div className='review'>
                   <small className="bold-grey-text">{item.date}</small>
                   <p>{item.name}</p>
-                   {/* {(() => {
-                   if (item.id === 20) {
-                        return (
-                             <Five/>
-                               )
-                       } else if (item.id === 21) {
-                         return (
-                              <Four/>
-                                )
-                            } else {
-                          return (
-                       <Three/>
-                        )
-                            }
-                    })} */}
+
                   {item.id === 20 && <Five/>}
                   {item.id === 21 && <Four/>}
                   {item.id === 22 && <Three/>}
                   
-                   <small class="bold-grey-text">{item.message}</small>
-                   <small class="pointer">view more</small> 
+                   <small className="bold-grey-text">{item.message}</small>
+                   <small className="pointer">view more</small> 
              </div>
           ))
       }

@@ -1,23 +1,3 @@
-// import imgSlide from '../../img/telescope.jpg'
-// const Slider = () => {
-//   return (
-//     <section className="top-section">
-      
-     
-//     <div className="space-banner">
-//     <button className="float-btn add-float left-btn"><i className="fa fa-arrow-left" aria-hidden="true"></i></button>
-//       <div className="slider-detail">
-//         <img src={imgSlide}/>
-//        <h1>We see past time in a telescope !</h1>
-//        <small>It won't be a bigger problem to find one space lover in your neighbor</small>
-//        <a href="https://vaspacx-catalog-page.netlify.app/catelog.html"><button className="primay-btn label-btn">BUY NOW</button></a>
-//        </div>
-//        <button className="float-btn add-float right-btn"><i className="fa fa-arrow-right" aria-hidden="true"></i></button>
-//     </div>
-  
-// </section>
-// //   )
-// // }
 import { useState } from "react";
 import styled from "styled-components";
 import { sliderItems } from "../../data";
