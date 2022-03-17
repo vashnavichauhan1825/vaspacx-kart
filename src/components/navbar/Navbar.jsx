@@ -5,7 +5,7 @@ const Navbar = () => {
   
     
         <div className="search-nav">
-            <span className="vaspacx"><a href="https://vaspacx-ecommerce.netlify.app/mainpage.html">vaspac<i className="fa fa-xing" aria-hidden="true"></i></a></span>
+          <span className="vaspacx"><span className='clr-white'>vas</span><span className='clr-primary'>pac</span><i className="fa fa-xing clr-primary" aria-hidden="true"></i></span>
             <div className="search-cont"><form>
                 <select className="bold-grey-text">
                   <option>All</option>

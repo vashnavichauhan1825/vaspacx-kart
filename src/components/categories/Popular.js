@@ -16,11 +16,11 @@ const Popular = () => {
             
                 <ul>
                     <li>{item.title}</li>
-                    <li className="bold-grey-text"><small>{item.listOne}</small></li>
-                    <li className="bold-grey-text"><small>{item.listTwo}</small></li>
-                    <li className="bold-grey-text"><small>{item.listThree}</small></li>
-                    <li className="bold-grey-text"><small>{item.listFour}</small></li>
-                    <li><small>Show All <i className="fa fa-angle-right" aria-hidden="true"></i></small></li>
+                    <li className="bold-grey-text pointer"><small>{item.listOne}</small></li>
+                    <li className="bold-grey-text pointer"><small>{item.listTwo}</small></li>
+                    <li className="bold-grey-text pointer"><small>{item.listThree}</small></li>
+                    <li className="bold-grey-text pointer"><small>{item.listFour}</small></li>
+                    <li className='pointer'><small>Show All <i className="fa fa-angle-right" aria-hidden="true"></i></small></li>
                 </ul>
             
         </div>

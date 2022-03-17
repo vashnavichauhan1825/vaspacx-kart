@@ -24,7 +24,7 @@ import { sliderItems } from "../../data";
 
 const Container = styled.div`
   width: 100%;
-  height: 80vh;
+  height: 65vh;
   display: flex;
   overflow: hidden;
 `;
@@ -59,6 +59,7 @@ const Slide = styled.div`
   height: 85vh;
   display: flex;
   align-items: center;
+  background-color: #${(props) => props.bg};
 `;
 
 const ImgContainer = styled.div`
@@ -72,7 +73,8 @@ const Image = styled.img`
 
 const InfoContainer = styled.div`
   flex: 1;
-  padding: 50px;
+  padding: 60px;
+  margin-bottom:65px;
   z-index:3;
 `;
 
@@ -90,10 +92,10 @@ const Desc = styled.p`
 const Button = styled.button`
   padding: 10px;
   font-size: 20px;
-  background-color: transparent;
+  background-color:#3a7ce3;
   cursor: pointer;
   color:white;
-  border:2px solid blue;
+  border:2px solid #3a7ce3;
 `;
 
 const Slider = () => {
@@ -113,7 +115,7 @@ const Slider = () => {
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
         {sliderItems.map((item) => (
-          <Slide key={item.id}>
+          <Slide bg={item.bg} key={item.id}>
             <ImgContainer>
               <Image src={item.img} />
             </ImgContainer>

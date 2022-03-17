@@ -501,9 +501,22 @@ footer .vaspacx{
     font-size: 28px;
     letter-spacing: 2px;
     padding-bottom: 23px;
-    background: -webkit-linear-gradient( 
+    /* background: -webkit-linear-gradient( 
 349deg
  ,var(--logo-color) 22%, #3a7ce3 17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.clr-primary{
+  background:var(--mainBrandColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.clr-white{
+    background:var(--font-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

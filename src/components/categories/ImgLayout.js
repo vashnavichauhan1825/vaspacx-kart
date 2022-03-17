@@ -4,7 +4,7 @@ import { ImgLayoutItems } from '../../data';
 const ImgLayout = () => {
   return (
       <>
-    <h2 class="heading-product head-margin">Popular Reviews</h2>
+    <h2 class="heading-product head-margin">Popular Items</h2>
     <div class="popular-item">
         {
             ImgLayoutItems.map((item)=>(
