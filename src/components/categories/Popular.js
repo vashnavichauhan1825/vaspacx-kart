@@ -4,7 +4,7 @@ import { popularItem } from '../../data';
 const Popular = () => {
   return (
       <>
-      
+       <h2 class="heading-product">Popular Categories</h2>
     <div className="popular-category">
        {
            popularItem.map((item)=>(
@@ -32,51 +32,3 @@ const Popular = () => {
 }
 
 export default Popular;
-
-{/* <div class="popular-category">
-<div class="pc-first">
-    <div class="flex-center-product">
-        <img src="./img/book.png">
-    </div>
-    
-        <ul>
-            <li>Books</li>
-            <li class="bold-grey-text"><small>children's Books</small></li>
-            <li class="bold-grey-text"><small>children's Books</small></li>
-            <li class="bold-grey-text"><small>children's Books</small></li>
-            <li class="bold-grey-text"><small>children's Books</small></li>
-            <li><small>Show All <i class="fa fa-angle-right" aria-hidden="true"></i></small></li>
-        </ul>
-    
-</div>
-<div class="pc-first">
-   <div class="flex-center-product">
-       <img src="./img/lens.png">
-   </div>
-  
-   <ul>
-       <li>Books</li>
-       <li class="bold-grey-text"><small>children's Books</small></li>
-       <li class="bold-grey-text"><small>children's Books</small></li>
-       <li class="bold-grey-text"><small>children's Books</small></li>
-       <li class="bold-grey-text"><small>children's Books</small></li>
-       <li><small>Show All <i class="fa fa-angle-right" aria-hidden="true"></i></small></li>
-   </ul>
-   
-</div>
-<div class="pc-first">
-   <div class="flex-center-product">
-       <img src="./img/game.png">
-   </div>
-   
-   <ul>
-       <li>Books</li>
-       <li class="bold-grey-text"><small>children's Books</small></li>
-       <li class="bold-grey-text"><small>children's Books</small></li>
-       <li class="bold-grey-text"><small>children's Books</small></li>
-       <li class="bold-grey-text"><small>children's Books</small></li>
-       <li><small>Show All <i class="fa fa-angle-right" aria-hidden="true"></i></small></li>
-   </ul>
-   
-</div>
-</div> */}

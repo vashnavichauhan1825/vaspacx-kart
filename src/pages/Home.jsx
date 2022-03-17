@@ -9,6 +9,8 @@ import Feature from '../components/categories/Feature';
 import Popular from '../components/categories/Popular';
 import ImgLayout from '../components/categories/ImgLayout';
 import Reviews from '../components/review/Reviews';
+import Newsletter from '../components/categories/Newsletter';
+import Footer from '../components/footer/Footer';
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
       <Popular/>
       <ImgLayout/>
       <Reviews/>
+      <Newsletter/>
+      <Footer/>
     </div>
   
   )
@@ -29,18 +33,3 @@ const Home = () => {
 
 export default Home;
 
-// {(() => {
-//   if (item.icon === "5star") {
-//     return (
-//       <Five/>
-//     )
-//   } else if (item.icon === "4star") {
-//     return (
-//      <Four/>
-//     )
-//   } else {
-//     return (
-//       <Three/>
-//     )
-//   }
-// })()}
