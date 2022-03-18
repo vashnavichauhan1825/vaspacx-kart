@@ -3,6 +3,7 @@ import ContactInfo from "./details/ContactInfo"
 import HelpDetail from "./details/HelpDetail"
 import ShopDetail from "./details/ShopDetail"
 import Vaspacx from "./details/Vaspacx"
+import React from "react"
 
 const FooterCont = styled.div`
 display: grid;

@@ -1,4 +1,5 @@
 import { SecfeatItem } from '../../../data';
+import React from 'react';
 
 const SecondFeat = () => {
   return (
@@ -6,7 +7,7 @@ const SecondFeat = () => {
          {
              SecfeatItem.map((item)=>
                 <div className="product-display pointer">
-                <img src={item.img}/>
+                <img alt="image" src={item.img}/>
                 <small className="bold-grey-text">{item.title}</small>
                 <small>{item.product}</small><br/>
                 <small className="bold-white-txt">{item.price}</small>

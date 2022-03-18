@@ -1,4 +1,4 @@
-
+import React from 'react'
 import { serviceItems } from '../../data'
 import styled from 'styled-components'
 
