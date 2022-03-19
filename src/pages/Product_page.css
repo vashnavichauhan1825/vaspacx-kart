@@ -1,0 +1,262 @@
+@import url('https://vaspacx-ecommerce.netlify.app/main.css');
+
+body{
+    height:auto;
+}
+
+aside{
+    width: 12vw;
+    height: 200vh;
+    margin-left: 11rem;
+    margin-top:2rem;
+}
+
+#icon{
+    width: 20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration:none;
+}
+.brand{
+    border-bottom: 1px solid var(--lightGrey);
+    padding: 21px 0px;
+    cursor: pointer;
+}
+.brand label{
+font-size: 0.8rem;
+}
+
+.price-range{
+    border-bottom: 1px solid var(--lightGrey);
+    padding: 5px 0px;
+}
+
+.price-range div{
+    margin-bottom: 14px;
+}
+
+.catalog-section{
+    position: relative;
+    height: 345vh;
+}
+
+.catalog-nav{
+    display: flex;
+    width: 62vw;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 2%;
+    right: 7%;
+}
+
+main{
+    position: absolute;
+    top: 6%;
+    width: 69vw;
+    right: 2%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 100vh;
+    gap: 30px;
+}
+
+main .product-display{
+width: auto;
+height: auto;
+position: relative;
+cursor: pointer;
+}
+
+.product-display button{
+    width: 148px;
+    cursor: pointer;
+}
+.product-display button:hover{
+   opacity:0.8;
+}
+
+main .product-display i{
+    position: absolute;
+    top: 5%;
+    color: var(--lightGrey);
+    font-size: 20px;
+    right: 7%;
+    cursor: pointer;
+}
+
+main .product-display i:hover{
+    color:var(--font-primary);
+}
+
+
+.cart-section{
+    margin-left: 11rem;
+    margin-top: 25px;
+    width: 85vw;
+    height: 161vh;
+}
+
+.cart-cont{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+    height: 73vh;
+}
+
+.cart-item{
+display:grid;
+gap: 12px;
+}
+
+.cart-label{
+    display: grid;
+    grid-template-columns: 506px 266px 1fr;
+}
+
+.cartitem-one{
+    border-bottom: 1px solid var(--lightGrey);
+    border-top-left-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 152px;
+}
+
+.item-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+}
+
+.item-name ul{
+list-style:none;
+}
+
+.item-name img{
+    width: 110px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.item-flex{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+   
+    margin-right: 10px;
+}
+
+.cartitem-one span{
+    position: relative;
+    border: 1px solid var(--lightGrey);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.cartitem-one span .down{
+    top: 30%;
+    right: 8%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.cartitem-one span .down:hover{
+    color:var(--lightGrey);
+}
+
+.cartitem-one span .up{
+    position: absolute;
+    cursor: pointer;
+    top: 2%;
+    right: 8%;
+}
+.cartitem-one span .up:hover{
+    color:var(--lightGrey);
+}
+
+/* cart summary */
+
+.cart-sum{
+    background-color: var(--secbg-color);
+    padding: 25px;
+    width: 284px;
+    border-radius: 10px;
+    height: 402px;
+    display: grid;
+    grid-template-rows: 86px 124px 50px 79px;
+    }
+
+
+.cart-sum div button{
+    margin-left: 78px;
+}
+.cart-sum-flex{
+    display:flex;
+    justify-content: space-between;
+}
+
+.border-bottom{
+    border-bottom:1px solid var(--lightGrey);
+    margin-top: 13px;
+}
+
+.button-shopping{
+    background: transparent;
+    color: var(--font-primary);
+    border: 2px solid var(--lightGrey);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 66px;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+
+.button-shopping:hover{
+    color:var(--mainBrandColor);
+}
+
+/* wishlist section */
+
+.wishlist-section{
+    margin: 10px 2rem 2rem 11rem;
+    height: 250vh;
+}
+
+.wishlist-item-container{
+    width: 100%;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin: 15px;
+    display: grid;
+}
+
+.wishlist-item-container .product-display{
+    width: auto;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+    }
+    
+    .wishlist-item-container .product-display i{
+        position: absolute;
+        top: 5%;
+        color: var(--lightGrey);
+        font-size: 20px;
+        right: 7%;
+        cursor: pointer;
+    }
+    
+    .wishlist-item-container .product-display i:hover{
+        color:var(--font-primary);
+    }
+
+    .margin-left-11x{
+        margin-left: 11rem;
+        width:80vw;
+        height:220vh;
+    }

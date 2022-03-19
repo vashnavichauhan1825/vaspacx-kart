@@ -15,9 +15,6 @@ import Footer from '../components/footer/Footer';
 const Home = () => {
   return (
     <div>
-      <ContactNav/>
-      <Navbar/>
-      <MenuNav/>
       <Slider/>
       < Service />
       <Feature/>
@@ -26,6 +23,7 @@ const Home = () => {
       <Reviews/>
       <Newsletter/>
       <Footer/>
+    
     </div>
   
   )
