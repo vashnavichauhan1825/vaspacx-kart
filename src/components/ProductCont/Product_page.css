@@ -39,7 +39,7 @@ font-size: 0.8rem;
 
 .catalog-section{
     position: relative;
-    height: 345vh;
+    height:auto;
 }
 
 .catalog-nav{
@@ -60,7 +60,7 @@ main{
     padding: 14px;
     right: 1%;
     grid-template-columns: repeat(4,1fr);
-    height: 100vh;
+    height:auto;
     gap: 30px;
 }
 .product-display .card-bookmark{

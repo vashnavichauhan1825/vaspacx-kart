@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import NavCont from './components/navbar';
 import { ProductPage} from './pages/ProductPage';
 import Cart from './pages/Cart';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
   <Route path='/cart' exact element={<Cart />}/>
   </Routes>
   </div>
-
+ 
  </BrowserRouter>
   );
 }
