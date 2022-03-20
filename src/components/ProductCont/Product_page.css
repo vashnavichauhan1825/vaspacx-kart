@@ -54,21 +54,42 @@ font-size: 0.8rem;
 }
 
 main{
-    position: absolute;
-    top: 6%;
-    width: 69vw;
-    right: 2%;
+    width: 80vw;
     display: grid;
+    position: absolute;
+    padding: 14px;
+    right: 1%;
     grid-template-columns: repeat(4,1fr);
     height: 100vh;
     gap: 30px;
 }
+.product-display .card-bookmark{
+    left: 0%;
+    margin-left: -6px;
+}
 
+.product-display .discount-cont{
+    display:inline-block;
+    margin:5px;
+}
+
+.product-display .card-bookmark i{
+ color: rgb(204, 204, 42);
+}
+main .product-display img{
+    width: 185px;
+    height: 192px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
 main .product-display{
-width: auto;
-height: auto;
-position: relative;
-cursor: pointer;
+    width: 269px;
+    height: 370px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
 }
 
 .product-display button{
